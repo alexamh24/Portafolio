@@ -2,6 +2,15 @@
 console.log("Hola, mundo desde un archivo externo!");
 
 //TIPOS DE DATOS
+// let cadena = "Hola mundo!";
+let numero=42;
+let logico = true;
+let nulo = null;
+let indefinido = undefined;
+let simbolo = Symbol("foo");
+
+console.log(numero, logico, nulo, indefinido, simbolo);
+
 let nombre = "Alexa";
 let edad = 20;
 let objeto = { nombre: "Alexa MH", edad: 20 };
@@ -11,6 +20,8 @@ function suma(a, b) {
     return a + b;
 }
 let fecha=new Date();
+let patron = /ab+c/;
+let error = new Error("Error de prueba");
 
 console.table(objeto);
 console.table(numeros); // tabla ~~0 a 4~~1 a 5~~
@@ -40,7 +51,9 @@ let yedad = 20;
 
 if(yedad>=18){
     console.info("Eres mayor de edad");
+    console.warn("Eres mayor de edad");
 } else {
+    console.info("Eres menor de edad");
     console.warn("Eres menor de edad");
 }
 
@@ -61,7 +74,7 @@ if (yyedad == 12) {
     console.warn("Eres un niño");
  }
 
-//foto 2:40 arriba 
+// 2:40 arriba 
 let dia = prompt("Ingresa un número del 1 al 7");
 dia +=0;
  switch (dia) {
