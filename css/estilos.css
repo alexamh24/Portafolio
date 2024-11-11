@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1{
     color: rgb(226, 128, 17);
     font-family: "Comic Sans MS","Comic Sans",sans-serif;
@@ -22,4 +23,30 @@ h3{
     border: 1px solid rgb(120, 1, 86);
     box-shadow: 2px 2px 5px rgb(236, 220, 8);
     text-shadow: 1px 1px 2px rgb(219, 8, 26);
+=======
+h1{
+    color: rgb(226, 128, 17);
+    font-family: "Comic Sans MS","Comic Sans",sans-serif;
+}
+hr{
+    height: 8px;
+    background-color: rgb(193, 194, 188);
+}
+h2{
+    color: rgb(194, 14, 41);
+    font-family: "Arial", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+h3{
+    color: rgb(3, 11, 116);
+    font-size:50px;
+    text-align: center;
+    background-color: rgb(187, 255, 28) ;
+    border: 1px solid rgb(120, 1, 86);
+    box-shadow: 2px 2px 5px rgb(236, 220, 8);
+    text-shadow: 1px 1px 2px rgb(219, 8, 26);
+>>>>>>> e35872f7b015c01122f43411c208aeb02a3cb4ed
 }
