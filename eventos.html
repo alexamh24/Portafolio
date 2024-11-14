@@ -9,27 +9,26 @@
             text-align: center;
         }
     </style>
-    <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.purple.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.purple.min.css"/>
 </head>
 <body>
     <div>
-        <a href="js/eventos.js"><em>Eventos</em></a><br/>
+        <a href="js/eventos.js"><em> Eventos </em></a><br/>
         <a href="index.html"><strong> 🌸Inicio🌸</strong></a><br/>
         <a href="dom.html"> <strong> ⬅️Anterior </strong></a><br/>
+        <a href="objetos2.html""> <strong> Siguiente➡️ </strong></a><br/>
     </div>    
     <main class="container">
         <article>
             <h1>Manejo de Eventos</h1>
-            <h2>Propiedad <code> ON </code></h2>
+            <h3>Propiedad <code> ON </code></h3>
             <button onclick="saludar()"> Saludar </button>
             <output id="salida_boton"> Nada por ahora </output>
         </article>
         <article>
-            <h2>Event Listener</h2>
-            <button id="otro_boton" onclick="">Otro botón</button>
-            <output id="salida_otro"> Nada por ahora </output>
+            <h3>Event Listener</h3>
+                <button id="otro_boton" onclick=""> Otro botón </button>
+                <output id="salida_otro"> Salida otro </output>
         </article>
         <article>
             <h2>Eventos de Input</h2>
@@ -38,6 +37,26 @@
                 <input type="text" id="nombre" autocomplete="off" />
             </form>
             <output id="salida_teclado"> Nada por aquí </output>
+        </article>
+        <article>
+            <h3>Eventos de Tipo : Suma <code>submit</code></h3>
+            <form action="#" id="miform">
+                <fieldset>
+                    <label for="a"> Valor <code> A </code></label>
+                    <input type="number" id="a" name="a" />
+                </fieldset>
+                <fieldset>
+                    <label for="b"> Valor <code> B </code></label>
+                    <input type="number" id="b" name="b" />
+                </fieldset>
+                <!-- <fieldset>
+                    <button type="submit" id="sumarBtn">Sumar</button>
+                </fieldset> -->
+                <fieldset>
+                    <button type="submit" id="btnSumar"> Sumar </button>
+                    <code id="salida_suma"> 0 </code>
+                </fieldset>
+            </form> /.miform
         </article>
     </main> /.container
     <script src="js/eventos.js"></script>
