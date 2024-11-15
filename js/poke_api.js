@@ -6,10 +6,10 @@ fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
     .then((response) => response.json())
     .then((pokemon) =>{
         // console.log(pokemon.name)
-        // console.log(pokemon.types[0].type.name)
-        console.log(pokemon.sprites.front_default)
-        // nombreTxt.innerText = pokemon.name
-        // let lista = document.createElement("ul")
+        console.log(pokemon.types[0].type.name)
+        // console.log(pokemon.sprites.front_default)
+        nombreTxt.innerText = pokemon.name
+        let lista = document.createElement("ul")
         typesList.appendChild(lista)
         pokemon.types.forEach(element =>{
             let nombre = element.type.name
