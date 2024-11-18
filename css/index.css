@@ -1,0 +1,44 @@
+h1,h2{
+    text-align: center;
+}
+.medio{
+    text-align: center;
+}
+h1 {
+color: #fce300;
+font-size: 38px;
+font-weight: bold;
+}
+h2 {
+color: #880E4F;
+font-size: 27px;
+font-weight: bold;
+}
+h3 {
+color: #ff0080;
+font-size: 24px;
+font-weight: bold;
+}
+h4{
+    color: lime;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+ol {
+color: #000000;
+font-family: sans-serif;
+font-size: 16px;
+font-weight: bold;
+}
+hr{
+    height: 3px;
+    background-color: #fd72b8;
+    border-color: #fd72b8;
+}
+body{
+    background-color: #FFFFCC;
+}
+li::marker{
+    font-family:"Bungee Tint" ;
+}
