@@ -21,10 +21,10 @@ otro_boton.addEventListener("mouseleave",
     this.innerText = " Salió el mouse";
 });
 
-otro_boton.addEventListener("mousemove",
-    function(){
-    this.innerText = " 🐭 ";
-});
+// otro_boton.addEventListener("mousemove",
+//     function(){
+//     this.innerText = " 🐭 ";
+// });
 
 let nombreText = document.getElementById("nombre");
 let salida_teclado = document.getElementById("salida_teclado");
