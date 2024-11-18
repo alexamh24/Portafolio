@@ -1,0 +1,39 @@
+:root{
+    --mimi-pink: #eacbd2ff;
+    --tea-rose-red: #dfaeb4ff;
+    --amaranth-pink: #dd9ac2ff;
+    --african-violet: #b486abff;
+    --chinese-violet: #82667fff;
+}
+
+#pokemon-name, #pokemon-types{
+    font-family: "Stylish";
+}
+
+body{
+    font-weight: bolder;
+    background-color: var(--mimi-pink);
+}
+
+div{
+    text-align: center;
+}
+
+.titulo{
+    /* font-family: "Nabla"; */
+    color: var(--chinese-violet);
+    text-align: center;
+    font-size: 50px;
+}
+
+dt{
+    font-size: 30px;
+    font-family: "Atma";
+}
+
+article{
+    background-color: aquamarine;
+    border: 8px double var(--amaranth-pink);
+    box-shadow: 5px 5px 15px var(--platinum);
+    font-size: 30px;
+}

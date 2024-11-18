@@ -20,3 +20,5 @@ fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
         image.setAttribute("src",pokemon.sprites.front_default)
     })
     .catch((error) => console.error(error))
+
+    

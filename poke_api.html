@@ -3,37 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PokeApi</title>
+    <title> PokeApi </title>
     <script src="js/poke_api.js" defer></script>
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.lime.min.css"/>
-  <style>
-    body{
-        font-weight: bolder;
-    }
-    div{
-        text-align: center;
-    }
-  </style>
+    <link rel="stylesheet" href="css/poke_api.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.yellow.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Nabla&family=Stylish&display=swap');
+    </style>
 </head>
 <body>
     <div>
-        <a href="js/poke_api.js"><em> Poke Api </em></a><br/>
+        <!-- <a href="js/poke_api.js"><em> PokeApi.js ~~~ </em></a><a href="css/poke_api.css"><em> PokeApi.css </em></a> <br/> -->
         <a href="index.html"><strong> 🌸Inicio🌸</strong></a><br/>
         <a href="eventos.html"> <strong> ⬅️Anterior </strong></a><br/>
-        <a href="   "> <strong> Siguiente➡️ </strong></a><br/>
+        <a href="apiAleatoria.html"> <strong> Siguiente➡️ </strong></a><br/>
     </div>
     <main class="container">
-        <h1>Poke Api</h1>
+        <h1 class="titulo"> POKE API </h1>
         <article>
             <dl>
-                <dt>Nombre</dt>
+                <dt> Nombre</dt>
                 <dd id="pokemon-name"></dd>
                 <dt>Tipos</dt>
                 <dd id="pokemon-types"></dd>
                 <dt> Imagen </dt>
-                <dd>
+                <dd class="formato">
                     <img id="pokemon-image" src="" alt="">
                 </dd>
             </dl>
