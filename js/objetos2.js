@@ -24,16 +24,15 @@ let repetidor = setInterval(() => {
     lista.appendChild(registro("Cada 1.5 seg. ⌛"));
 }, 1500);
 
-let activaTimerBtn = document.getElementById("activaTimer");
-let stopBtn = document.getElementById("pararRepetidor");
-
-activaTimerBtn.addEventListener("click", function(){
+let activaTimer = document.getElementById("activaTimer");
+let pararRepetidor = document.getElementById("pararRepetidor");
+activaTimer.addEventListener("click", function(){
     lista.appendChild(registro("Inicia timer..."));
     timer.setTimeout(3000);
     clearTimeout(timer);
 });
 
-stopBtn.addEventListener("click", function(){
+pararRepetidor.addEventListener("click", function(){
     lista.appendChild(registro("Parar repetidor..."));
     clearInterval(repetidor);
 });
