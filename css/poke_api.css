@@ -4,36 +4,193 @@
     --amaranth-pink: #dd9ac2ff;
     --african-violet: #b486abff;
     --chinese-violet: #82667fff;
-}
 
-#pokemon-name, #pokemon-types{
-    font-family: "Stylish";
+    --wine: #773344ff;
+    --pale-dogwood: #e3b5a4ff;
+    --linen: #f5e9e2ff;
+    --licorice: #0b0014ff;
+    --indian-red: #d44d5cff;
+
+    --light-sea-green: #00bfb2ff;
+    --caribbean-current: #1a5e63ff;
+    --teal: #028090ff;
+    --cream: #f0f3bdff;
+    --mulberry: #c64191ff;
+
+    --normal: #a8a77a;
+    --fire: #ee8130;
+    --water: #6390f0;
+    --electric: #f7d02c;
+    --grass: #7ac74c;
+    --ice: #96d9d6;
+    --fighting: #c22e28;
+    --poison: #a33ea1;
+    --ground: #e2bf65;
+    --flying: #a98ff3;
+    --psychic: #f95587;
+    --bug: #a6b91a;
+    --rock: #b6a136;
+    --ghost: #735797;
+    --dragon: #6f35fc;
+    --dark: #705746;
+    --steel: #b7b7ce;
+    --fairy: #d685ad;
+
+
+}
+.links{
+    font-size: 30px;
+    text-align: center;
 }
 
 body{
     font-weight: bolder;
     background-color: var(--mimi-pink);
 }
+article{
 
-div{
+    /* display: flex; */
     text-align: center;
+    /* background-color: var(--chinese-violet); */
+    border: 8px double var(--amaranth-pink);
+    box-shadow: 5px 5px 30px var(--african-violet);
+    font-size: 30px;
+}
+img:hover{
+    transform: scale(1.4);  
 }
 
+.imagen .datos{
+    display: flex;
+    /* justify-content: center; */
+}
+img{
+    justify-content: center;
+    transition:transform 0.1s;
+    width: 300px;
+    height: 300px;
+}
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} 
+
+.one{
+    width: 20%;
+    max-width: 600px;
+    height: 650px;
+    justify-content: center;
+}
+
+.two{
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+    justify-content: center;
+}
+.one,.two{
+    border-radius: 100px;
+    text-align: center;
+    background: linear-gradient(to right, var(--chinese-violet), var(--mimi-pink)); 
+}
+
+
+
+
+.one:hover {
+    transform: scale(1.05); /* Ajusta el valor para el tamaño deseado */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Agrega un efecto de sombra si deseas */
+}
+
+.one {
+    transition: transform 0.3s, box-shadow 0.3s; /* Suaviza la animación */
+    border: 1px solid #ddd; /* Opcional: Agregar un borde para mejor visualización */
+    padding: 16px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Fondo claro */
+    margin: 16px; /* Separación entre elementos */
+}
+
+.two:hover {
+    transform: scale(1.05); /* Ajusta el valor para el tamaño deseado */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Agrega un efecto de sombra si deseas */
+}
+
+.two{
+    transition: transform 0.3s, box-shadow 0.3s; /* Suaviza la animación */
+    border: 1px solid #ddd; /* Opcional: Agregar un borde para mejor visualización */
+    padding: 16px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Fondo claro */
+    margin: 16px; /* Separación entre elementos */
+}
+
+h2{
+    font-family: "Honk"; 
+    font-weight:bold;
+    line-height: 5%;
+    font-size: 70px;
+}
+.estadisticas{
+    color: var(--french-gray);
+}
+hr{
+    background-color: var(--mimi-pink);
+    border-color: var(--mimi-pink);
+    height: 16px;
+    
+}
 .titulo{
     /* font-family: "Nabla"; */
-    color: var(--chinese-violet);
+    font-family: "Bungee Spice";
+    /* color: var(--chinese-violet); */
     text-align: center;
-    font-size: 50px;
+    font-size: 100px;
+    line-height: 9%;
+
 }
 
 dt{
     font-size: 30px;
     font-family: "Atma";
+    color: var(--licorice);
+}
+h3{
+    font-size: 30px;
+    font-family: "Atma";
+    /* border-color: 5000px var(--wine); */
 }
 
-article{
-    background-color: aquamarine;
-    border: 8px double var(--amaranth-pink);
-    box-shadow: 5px 5px 15px var(--platinum);
+dd{
+    font-family: "Stylish";
+    color: var(--wine);
+}
+
+/* nombre */
+#poke-name{
+    /* font-family: "Bungee Tint"; */
+    font-family: "Nabla";
+    font-size: 70px;
+    line-height: 5%;
+    text-shadow: 2px 2px 5px black;
+}
+
+#poke-in{
+    /* display: flex; */
+    text-align: center;
+    font-family:"Atma";
+}
+
+.audio{
+    justify-content: center;   
+}
+
+label{
+    font-family: "Stylish";
+}
+
+input{
+    border-radius: 8px;
+    border: gray;
     font-size: 30px;
+
 }

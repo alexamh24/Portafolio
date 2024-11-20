@@ -6,31 +6,84 @@
     <title> PokeApi </title>
     <script src="js/poke_api.js" defer></script>
     <link rel="stylesheet" href="css/poke_api.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.yellow.min.css">
+  <link rel="icon" href="assets/juniorache.png">
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.yellow.min.css"> -->
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Nabla&family=Stylish&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Honk&family=Bungee+Spice&family=Atma:wght@300;400;500;600;700&family=Kalnia+Glaze:wght@100..700&family=Nabla&family=Stylish&display=swap');
     </style>
 </head>
 <body>
-    <div>
-        <!-- <a href="js/poke_api.js"><em> PokeApi.js ~~~ </em></a><a href="css/poke_api.css"><em> PokeApi.css </em></a> <br/> -->
+    <div class="links">
+        <a href="js/poke_api.js"><em> PokeApi.js ~~~ </em></a><a href="css/poke_api.css"><em> PokeApi.css </em></a> <br/>
         <a href="index.html"><strong> 🌸Inicio🌸</strong></a><br/>
-        <a href="eventos.html"> <strong> ⬅️Anterior </strong></a><br/>
-        <a href="apiAleatoria.html"> <strong> Siguiente➡️ </strong></a><br/>
+        <a href="objetos2.html"><strong> ⬅️Anterior </strong></a><br/>
+        <a href="apiAleatoria.html"><strong> Siguiente➡️ </strong></a><br/>
     </div>
-    <main class="container">
+    <!-- <main class="container"> -->
         <h1 class="titulo"> POKE API </h1>
-        <article>
+        <main class="container">
+        <article class="one" id="one">
+           <div class="pokebuscar-in">
+                <label for="poke-in"><em>Buscar Pokemon</em></label> <br>
+                <input type="text" name="poke-in"  id="poke-in" placeholder="Name o ID" onchange="handleInputChange(event)"></input>
+           </div>
+           <div class="imagen">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png"
+                alt="poke-img" id="poke-img" />
+           </div>
+           <div class="datos">
             <dl>
-                <dt> Nombre</dt>
-                <dd id="pokemon-name"></dd>
-                <dt>Tipos</dt>
-                <dd id="pokemon-types"></dd>
-                <dt> Imagen </dt>
-                <dd class="formato">
-                    <img id="pokemon-image" src="" alt="">
-                </dd>
+                <dt> Peso: </dt>
+                <dd id="poke-peso"> 65 kg</dd>
+                <dt> Altura: </dt>
+                <dd id="poke-alt"> 4 m</dd>
             </dl>
+           </div>
+        </article>
+    <!-- </main> -->
+        <article class="two" id="two">
+            <div class="letters">
+                <div class="two-name-arti">
+                    <h1 id="poke-name"> ARBOK </h1>
+                </div>
+                <hr />
+                <h2> TIPOS : </h2>
+                <div class="tipos" id="tipos">
+                    <div class="tipos-h3">
+                        <h3 class="tipo-h3"> Poison </h3>
+                    </div>
+                </div>
+                <hr />
+                <h2> ESTADÍSTICAS BASE: </h2>
+                <div class="estadisticas">
+                    <div class="hp-estadistica">
+                        <h3 class="estadisticah3" id="estadistica-h3"> Hp : <br> 60 </h3>
+                    </div>
+                    <div class="ataque-estadistica">
+                        <h3 class="estadisticah3" id="estadistica-h3"> Ataque : <br> 95 </h3>
+                    </div>
+                    <div class="defensa-estadistica">
+                        <h3 class="estadisticah3" id="estadistica-h3"> Defensa : <br> 69</h3>
+                    </div>
+                    <div class="ataqueE-estadistica">
+                        <h3 class="estadisticah3" id="estadistica-h3"> Ataque Especial : <br> 65 </h3>
+                    </div>
+                    <div class="defensaE-estadistica" >
+                        <h3 class="estadisticah3" id="estadistica-h3"> Defensa Especial : <br> 79 </h3>
+                    </div>
+                    <div class="velocidad-estadistica">
+                        <h3 class="estadisticah3" id="estadistica-h3"> Velocidad : <br> 80 </h3>
+                    </div>
+                </div>
+                <hr />
+                <h2> SONIDO : </h2>
+                <div class="two-audio">
+                    <audio controls
+                    src="https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/24.ogg"
+                    id="poke-audio"></audio>
+                </div>
+            </div>
         </article>
     </main>
 </body>
