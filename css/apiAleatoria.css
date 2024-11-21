@@ -119,20 +119,3 @@ article{
     width: fit-content;
     
 }
-
-
-/* IMPORTANTE */
-
-/* box-shadow: 5px 5px 100px var(--champagne-pink); */
-
-
-
-/* ESTO NO ES IMPORTARTE SOLO USARE DE BASE POR SI ACASO LOS DATOS */
-.cuadros{
-    /* display: flex; */
-    text-align: center;
-    /* background-color: var(--chinese-violet); */
-    border: 8px double var(--amaranth-pink);
-    box-shadow: 5px 5px 30px var(--african-violet);
-    font-size: 30px;
-}
