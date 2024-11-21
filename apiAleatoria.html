@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> API Aleatoria </title>
+    <link rel="stylesheet" href="css/apiAleatoria.css">
+    <script src="js/apiAleatoria.js" defer></script>
+    <link rel="icon" href="assets/rick-and-morty.jpg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Bungee+Spice&family=Bungee+Tint&family=Honk&family=Kalnia+Glaze:wght@100..700&family=Nabla&family=Nosifer&family=Sixtyfour+Convergence&family=Stylish&display=swap');
+    </style>
+</head>
+<body>
+    <div class="links">
+        <a href="js/apiAleatoria.js"><em> apiAleatoria.js ~~~ </em></a><a href="css/apiAleatoria.css"><em> apiAleatoria.css </em></a> <br/>
+        <a href="index.html"><strong> 🌸Inicio🌸</strong></a><br/>
+        <a href="poke_api.html"><strong> ⬅️Anterior </strong></a>
+    </div>
+    <!-- DESDE HTML HASTA AQUI ESTA TODO BIEN -->
+
+    <!-- de donde sacar los datos : https://rickandmortyapi.com/api/character/?page=2 -->
+     <!-- other link principal es : https://rickandmortyapi.com/api/character/ -->
+      <!-- AQUÍ EMPIEZA  LO QUE HAY QUE ENTREGAR -->
+    <h1 class="title"> The Rick and Morty API </h1>
+      <main class="container">
+        <br><br><br><br>
+        <article class="datos">
+            <br><br><br><br><br><br>
+
+            <div id="buscador" class="buscador">
+                <label  for="rm"></label>
+                <input type="text" name="rm" id="rm" placeholder="ID or name" onchange="handleInputChange(event)"></input>
+            </div>
+
+        <br><br><br><br><br><br><br><br><br><br><br>
+
+            <div class="image" id="image">
+                <img
+                src="https://rickandmortyapi.com/api/character/avatar/74.jpeg" 
+                alt="imagenRM" id="imagenRM"> 
+            </div>
+
+            <div class="visto" id="visto">
+                <h1 src="https://rickandmortyapi.com/api/character/74"
+                 id="name" class="cr"> Cop Rick </h1>
+                <h3 id="ID"> 74 </h3>
+                <h3 id="status"> Alive </h3>
+                <h3 id="species"> Human </h3>
+                <h3 id="gender"> Male </h3>
+
+                <h2 id="episodes" class="notchange"> First Seen In </h2> 
+                <!--  cosas que no van a cambiar  -->
+                <h3 src="https://rickandmortyapi.com/api/character/74" id="episode"> The Ricklantis Mixup </h3>
+            </div>
+        </article>
+   </main>
+</body>
+</html>

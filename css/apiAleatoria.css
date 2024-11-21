@@ -1,0 +1,138 @@
+/* IMPORTANTE */
+:root{
+    --rose: #f92a82ff;
+    --light-coral: #ed7b84ff;
+    --champagne-pink: #f5dbcbff;
+    --pearl: #d6d5b3ff;
+    --olivine: #7eb77fff;
+
+    --mimi-pink: #eacbd2ff;
+    --tea-rose-red: #dfaeb4ff;
+    --amaranth-pink: #dd9ac2ff;
+    --african-violet: #b486abff;
+    --chinese-violet: #82667fff;
+
+    --sage: #cdc392ff;
+    --alabaster: #e8e5daff;
+    --jordy-blue: #9eb7e5ff;
+    --cornflower-blue: #648de5ff;
+    --yinmn-blue: #304c89ff;
+
+    --oxford-blue: #0a2239ff;
+    --moonstone: #53a2beff;
+    --blue-ncs: #1d84b5ff;
+    --gunmetal: #132e32ff;
+    --lapis-lazuli: #176087ff;
+
+    --mint-green: #d0fef5ff;
+    --lavender-pink: #fab2eaff;
+    --chocolate-cosmos: #4a051cff;
+    --aquamarine: #52ffb8ff;
+    --murrey: #830a48ff;
+
+}
+.links{
+    font-size: 80px;
+    text-align: center;
+    line-height: 120%;
+    /* background: #f0f0f0;
+    background: none; */
+    
+    background: none !important;
+}
+*{
+    background: linear-gradient(to right, var(--rose), var(--sage)); 
+    /* background: var(--chocolate-cosmos); */
+}
+h1.title{
+    font-family: "Honk";
+    text-align: center;
+    font-size: 150px;
+    line-height: 50%;
+}
+h2.notchange{
+    font-family: "Bungee Tint";
+    box-shadow: 5px 5px 100px var(--champagne-pink);
+}
+.datos,.image,.ubi,.visto,.cr,h2,h3,h4{
+    background: linear-gradient(to right, var(--african-violet), var(--chinese-violet));
+    line-height: 10%; 
+
+}
+
+/* #buscador{
+    width: fit-content;
+
+} */
+h3{
+    font-family: "Stylish";
+}
+h2{
+    font-family: "Atma";
+}
+h1,h2,h3,h4{
+    align-items: center; /* Centra horizontalmente */
+    text-align: center; 
+    padding: 20px;
+
+    /* box-shadow: 5px 5px 100px var(--champagne-pink); */
+    
+}
+.container,.perfil{
+    display: flex;
+    justify-content: center;
+}
+article{
+    text-align: center;
+    border: 15px double var(--oxford-blue);
+    box-shadow: 5px 5px 100px var(--rose);
+    font-size: 50px;
+    border-radius: 80px;
+}
+
+#imagenRM{
+    border: 10px double var(--murrey);
+    box-shadow: 5px 5px 50px var(--gunmetal);
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+}
+
+#rm{
+    /* esto es del input */
+    text-align: center;
+    justify-content: center;
+    font-family:"Atma";
+
+    width: 300px;
+    height: 5%;
+    font-size: 40px;
+    box-shadow: 5px 5px 100px var(--champagne-pink);
+    border-radius: 80px; 
+
+    padding: 8%;
+}
+    
+    
+#buscador{    
+    background-color: var(--jordy-blue);
+    width: fit-content;
+    
+}
+
+
+/* IMPORTANTE */
+
+/* box-shadow: 5px 5px 100px var(--champagne-pink); */
+
+
+
+/* ESTO NO ES IMPORTARTE SOLO USARE DE BASE POR SI ACASO LOS DATOS */
+.cuadros{
+    /* display: flex; */
+    text-align: center;
+    /* background-color: var(--chinese-violet); */
+    border: 8px double var(--amaranth-pink);
+    box-shadow: 5px 5px 30px var(--african-violet);
+    font-size: 30px;
+}
