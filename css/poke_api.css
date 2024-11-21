@@ -99,29 +99,29 @@ img{
 
 
 .one:hover {
-    transform: scale(1.05); /* Ajusta el valor para el tamaño deseado */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Agrega un efecto de sombra si deseas */
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 .one {
-    transition: transform 0.3s, box-shadow 0.3s; /* Suaviza la animación */
-    border: 1px solid #ddd; /* Opcional: Agregar un borde para mejor visualización */
-    padding: 16px; /* Espaciado interno */
-    background-color: #f9f9f9; /* Fondo claro */
-    margin: 16px; /* Separación entre elementos */
+    transition: transform 0.3s, box-shadow 0.3s; 
+    border: 1px solid #ddd; 
+    padding: 16px; 
+    background-color: #f9f9f9; 
+    margin: 16px; 
 }
 
 .two:hover {
-    transform: scale(1.05); /* Ajusta el valor para el tamaño deseado */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Agrega un efecto de sombra si deseas */
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 .two{
-    transition: transform 0.3s, box-shadow 0.3s; /* Suaviza la animación */
-    border: 1px solid #ddd; /* Opcional: Agregar un borde para mejor visualización */
-    padding: 16px; /* Espaciado interno */
-    background-color: #f9f9f9; /* Fondo claro */
-    margin: 16px; /* Separación entre elementos */
+    transition: transform 0.3s, box-shadow 0.3s; 
+    border: 1px solid #ddd; 
+    padding: 16px; 
+    background-color: #f9f9f9; 
+    margin: 16px; 
 }
 
 h2{
